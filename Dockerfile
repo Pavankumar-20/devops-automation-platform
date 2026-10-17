@@ -9,6 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app/ ./app/
 
-CMD ["python", "app/monitor.py"]
+CMD ["python", "app/metrics_server.py"]
 
 
